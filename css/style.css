@@ -55,7 +55,7 @@ h1,h2,h3 {
 }
 .titulo span {
     font-size: 2rem;
-    color: blue;
+    color: var(--secundario);
 }
 
 @media(min-width: 760px) {
@@ -211,7 +211,7 @@ h1,h2,h3 {
 .servicio .iconos{
     height: 15rem;
     width: 15rem;
-    background-color: #16F90C;
+    background-color: var(--primario);
     border-radius: 50%;
     display: flex;
     justify-content: space-evenly;
@@ -237,7 +237,7 @@ h1,h2,h3 {
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 2rem;
-    color: var(--primario);
+    color: var(--secundario);
 }
 
 @media(min-width: 768px) {
